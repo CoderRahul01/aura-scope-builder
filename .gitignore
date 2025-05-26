@@ -1,0 +1,30 @@
+# General
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Python / Backend specific (if not handled by a .gitignore inside aura-backend)
+aura-backend/.venv/
+aura-backend/*.pyc
+aura-backend/__pycache__/
+aura-backend/.env
+aura-backend/.pytest_cache/
+aura-backend/htmlcov/
+aura-backend/.coverage
+
+# Frontend specific (add as you build your frontend)
+aura-frontend/node_modules/
+aura-frontend/.next/ # Example for Next.js
+aura-frontend/dist/  # Example for Vite/Vue
+aura-frontend/build/ # Example for Create React App
+aura-frontend/.env*
+!aura-frontend/.env.example
+
+# IDE specific
+.vscode/
+.idea/
